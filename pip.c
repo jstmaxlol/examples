@@ -1,7 +1,11 @@
 /*
  *  PIP in C
- *  simple demonstration of a program in program.. program.
- *  czjstmax <jstmaxlol at disroot dot org>
+ *  Simple demonstration of launching a child process that replaces itself
+ *  with another program (VIM), with its parent then waiting for it to exit.
+ *  Written by czjstmax <jstmaxlol at disroot dot org>
+ *  Check MAINTAINERS file for info about repository/file maintainers.
+ *
+ *  Compile with: gcc pip.c -o pip
  */
 
 #include <stdio.h>
